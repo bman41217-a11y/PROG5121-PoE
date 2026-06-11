@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.poe.Part2_messagesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.129 s <<< FAILURE! -- in com.mycompany.poe.Part2_messagesTest
+com.mycompany.poe.Part2_messagesTest.testSetMessageHash -- Time elapsed: 0.052 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.mycompany.poe.Part2_messages.setMessageHash(String)" because "instance" is null
+	at com.mycompany.poe.Part2_messagesTest.testSetMessageHash(Part2_messagesTest.java:172)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
